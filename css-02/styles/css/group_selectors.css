@@ -5,3 +5,12 @@
 .paragraph {
     color:blue;
 }
+/**Descendant Selectors*/
+/* casi nunca uses por buena practica descendientes por esfecificidad*/
+.dropdown{
+    width: 100%;
+    background: cadetblue;
+}
+.menu-item .tag{
+    background-color: brown;
+}
