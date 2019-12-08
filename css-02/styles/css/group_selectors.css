@@ -98,3 +98,29 @@ a {
     color: magenta;
     background: none;
 }
+/*Selector de atributos termina con*/
+[href$=".pdf"]{
+    color: red;
+    background: url(./../../img/pdf.png) no-repeat center right / 
+    1rem;
+    padding-right: 2.2rem;
+}
+
+/*Selector de atributos contiene*/
+/* un atributo es todo*/
+/*contiene*/
+[class*="button-"] {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em 2em;
+    background: red;
+}
+.button-cta {
+    background: green;
+}
+.button-alert{
+    background: red;
+}
+/*comienza |=palabra y luego tiene un guion
+
+~=palabra contiene separado por espacio*/
