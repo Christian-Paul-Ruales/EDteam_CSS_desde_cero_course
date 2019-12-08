@@ -65,3 +65,25 @@ li:hover ul {
 .check:checked ~ .disabled{
     display: none;
 }
+/*--------------------Selectores de atributo*/
+/*[attr=value]*/
+[type="email"]{
+    border: 1px rebeccapurple solid;
+}
+
+[type="submit"]{
+    border-radius: 50%;
+    background: rosybrown;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+[type="submit"]:hover {
+    background: black;
+    color: white;
+}
+[required]{
+    border: 2px solid red;
+    margin: .5em;
+}
