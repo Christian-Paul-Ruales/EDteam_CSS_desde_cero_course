@@ -1,9 +1,17 @@
 /**Este es un comentario*/
-/**/
+
+:root{ /*Selector Root
+    Aqui voy a declarar con --variable mis variables*/
+    --color: blue;
+}
+
 body {
-    background: green;
-    color: white;
+    background: var(--color);
     margin: 10px;
+}
+h1 {
+    background: white;
+    color: var(--color);
 }
 /*Selector: selecciona al objeto*/
 /*{bloque}: declaraciones del objeto*/
