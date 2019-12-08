@@ -87,3 +87,14 @@ li:hover ul {
     border: 2px solid red;
     margin: .5em;
 }
+/*Selector de atributo comienza con*/
+a {
+    color: blue;
+    background: url(./../../img/external-link.png) no-repeat center right / 
+    1rem;
+    padding-right: 2.2rem;
+}
+[href^="./"]{
+    color: magenta;
+    background: none;
+}
