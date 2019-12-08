@@ -40,11 +40,28 @@ li:hover ul {
     font-size: .5em;
     margin-top: -2em;
 }
-
+/*hermano siguiente*/
 .title1 + .subtitle {
     color: var(--color-title);
 
 }
 .titleh2 + .subtitle {
     color: var(--color-subtitle);
+}
+
+/*hermanos siguientes*/
+/* debes estar al mismo nivel*/
+.hermano-mayor ~ .hermano {
+    color: yellowgreen
+}
+.enabled {
+    display: none;
+}
+
+.check:checked + .enabled{
+    display: block;
+}
+
+.check:checked ~ .disabled{
+    display: none;
 }
