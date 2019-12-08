@@ -1,0 +1,14 @@
+ul * {
+    display: none;
+    color: red;
+} /*NO siempre recomendado por ciertos comportamientos*/
+
+.last {
+    color: blue;
+    display: block;
+
+}
+span{
+    color: blue;
+}
+/* padre hijo {}*/
