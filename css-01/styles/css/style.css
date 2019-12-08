@@ -1,4 +1,10 @@
+/**Este es un comentario*/
+/**/
 body {
     background: green;
     color: white;
+    margin: 10px;
 }
+/*Selector: selecciona al objeto*/
+/*{bloque}: declaraciones del objeto*/
+/*declaraciones: propiedad:valor;*/
