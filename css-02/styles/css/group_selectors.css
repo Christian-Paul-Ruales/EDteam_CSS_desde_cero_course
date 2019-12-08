@@ -14,3 +14,13 @@
 .menu-item .tag{
     background-color: brown;
 }
+
+/*Selector hijo directo*/
+
+li > ul {
+    display: none;
+}
+
+li:hover ul {
+    display: block;
+}
