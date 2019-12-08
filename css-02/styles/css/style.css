@@ -1,11 +1,25 @@
 /*Selectores de Tipo CSS*/
-h1{
+.title{/*Selectores de etiqueta solo para normalizarW*/
     background: yellow;
     color: black;
 }
-p {
+.description {
     background: lime;
     color: black;
+}
+
+.bold {
+    font-weight: bold; /*Negritas*/
+}
+/*las clases no pueden empezar por numeros*/
+/*puedes usar emojis como clases*/
+.center { /*Centrar*/
+    text-align: center;
+
+}
+.😂{
+    background: red;
+    color: white;
 }
 /*LOs navegadores ya traen estilos predefinidos
 user agent: navegador
