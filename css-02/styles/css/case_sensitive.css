@@ -1,0 +1,7 @@
+P { /*Los tags no son case sensitive*/
+color: red;
+}
+/*los atributos si son case sensitive*/
+.Paragraph{
+    background: blue;
+}
