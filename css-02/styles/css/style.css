@@ -1,9 +1,14 @@
 /*Selectores de Tipo CSS*/
 h1{
     background: yellow;
-    color: white;
+    color: black;
 }
 p {
     background: lime;
-    color: white;
+    color: black;
 }
+/*LOs navegadores ya traen estilos predefinidos
+user agent: navegador
+stylesheet: hoja de estilos
+
+*/
