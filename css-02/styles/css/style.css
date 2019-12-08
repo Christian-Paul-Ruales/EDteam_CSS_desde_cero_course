@@ -21,6 +21,14 @@
     background: red;
     color: white;
 }
+
+/*# selector de id */
+#idselectors {
+    margin: 2%;
+    background: black;
+    color: white;
+}
+
 /*LOs navegadores ya traen estilos predefinidos
 user agent: navegador
 stylesheet: hoja de estilos
