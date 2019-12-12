@@ -12,10 +12,35 @@ h1{
 }
 span {
     background: blue;
-    display: block;
+    display: inline-block;
     /*por ser de bloque ya tiene alto y ancho*/
     height: 200px;
 }
 p{
     display: inline;
 }
+.box{
+    background: purple;
+    background-clip: content-box;
+    /*box model*/
+    width: 500px;
+    height: 300px;
+    padding: 50px;
+    border: 10px solid black;
+    margin: 10px;
+
+/*todos los box se suman
+ej ancho: 560*/
+
+/*box sizing */
+box-sizing: border-box;
+}
+/*inlin-block
+se acomoda en lineas con ancho y alto
+*/
+
+/*box model
+content box: contenido
+padding box
+border box
+margin: separacion de la caja con las cajas adyacentes*/
