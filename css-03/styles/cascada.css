@@ -38,3 +38,7 @@ asi que toma en cuenta la especificidad y despues la cascada*/
 /*styles computed muestra como el navegador renderizo 
 por que no esta haciendo caso a tu propiedad
 */
+/* 1em = 16px */
+/*em es relativo al fotsize
+unidades em son un múltiplo del tamaño de fuente del elemento*/
+/*1rem sería igual a 16px en cualquier parte del documento*/
