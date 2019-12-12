@@ -16,7 +16,7 @@ span {
     /*por ser de bloque ya tiene alto y ancho*/
     height: 200px;
 }
-p{
+.p{
     display: inline;
 }
 .box{
@@ -44,3 +44,47 @@ content box: contenido
 padding box
 border box
 margin: separacion de la caja con las cajas adyacentes*/
+
+/*--------------------------------------------Margin*/
+
+/* para normar
+*/
+*{
+    box-sizing: border-box;
+}
+
+
+
+[class^="box-"]{
+    background: yellowgreen;
+    padding: 50px;
+    width: 300px;
+    float: left;
+    margin-right: 10%;
+    
+    /*^ inicia
+    $termina
+    * contiene*/
+}
+
+.box-1{
+    /*
+    margin-top: 50px;
+    margin-right: 100px;*/
+   /* margin: 50px 100px 200px 30px/*desde arriba en sentido de las manillas de reloj*/
+   /* margin: 120px/*par reparte, lo completa con su opuesto
+    con un solo valor aplicas a los 4 lados*/
+    margin-right: -100px;
+}
+.box-2{
+    margin-top:50px;
+}
+.p2{
+    clear: both;
+    width: 600px;
+    background: pink;
+    /*manera correcta de centrar un objeto*/
+    margin-left: auto;
+    margin-right: auto;
+}
+/*usando margenes negativos puedes hacer que un elemento sea mas grande que su contenedor*/
