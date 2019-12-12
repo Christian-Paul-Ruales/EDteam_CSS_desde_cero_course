@@ -1,0 +1,40 @@
+body{
+    font-size: 3em;
+}
+p {
+    color: aquamarine;
+}
+/*cascada mismo elemento despues*/
+p {
+    color: green !important;
+    /*!important no se deberia usar, es una mala practica
+        pero se usa cuando no conoces otras especificidad*/
+
+}
+
+p {
+    color: blue;
+}
+/* suponemos archivos diferentes */
+p {
+    color: royalblue !important;
+    /*!important no se deberia usar, es una mala practica
+        pero se usa cuando no conoces otras especificidad*/
+
+}
+
+/* suponemos que son archivos diferentes */
+p {
+    color: rgb(190, 104, 12) !important;
+    /*!important no se deberia usar, es una mala practica
+        pero se usa cuando no conoces otras especificidad*/
+
+}
+
+/*SI todos son important, el navegador vuelve al estado inicial
+como si nadie lo tuviera
+asi que toma en cuenta la especificidad y despues la cascada*/
+
+/*styles computed muestra como el navegador renderizo 
+por que no esta haciendo caso a tu propiedad
+*/

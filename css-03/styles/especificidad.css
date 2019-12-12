@@ -1,0 +1,22 @@
+/**
+body{
+    font-size: 3em;
+}
+#main .post  p{
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+div#main .post p{
+    color: hotpink;
+}
+body div#main .post p{/*mala practica
+    color: rgb(0, 100, 121);
+}
+*/
+.description{
+    color: red;
+}
