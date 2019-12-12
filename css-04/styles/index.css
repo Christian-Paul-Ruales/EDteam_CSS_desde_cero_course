@@ -1,0 +1,21 @@
+/*width ancho
+height alto*/
+/*podemos cambiar la presentacion de un elemento css
+inline: elementos que no crean nuevas lineas
+        no tiene ancho ni alto, yo no puedo definirlo
+bloque, ocupan todo el ancho del contenedor
+*/
+/*todos los elementos de html son rectangulos*/
+h1{
+    background: yellowgreen;
+    display: inline;
+}
+span {
+    background: blue;
+    display: block;
+    /*por ser de bloque ya tiene alto y ancho*/
+    height: 200px;
+}
+p{
+    display: inline;
+}
