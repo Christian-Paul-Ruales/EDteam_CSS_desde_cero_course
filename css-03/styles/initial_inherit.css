@@ -1,0 +1,38 @@
+/*
+initial: resetea un elemento al valor inicial
+inherit: obliga a que un elemento herede una propiedad
+*/
+:root{
+    --color: green;
+    --listcolor: red;
+}
+/**
+p,a{
+    color: var(--color);
+}*/
+body{
+    font-size: 3em;
+}
+
+
+.span{
+    font-size: initial; /*resetea al valor*/
+}
+
+
+.father{
+    color: var(--color);
+}
+.soninitial{
+    color: initial;
+}
+.son{
+    color: inherit;/*hereda del padre*/
+}
+.redlist{
+    color: var(--listcolor)
+}
+
+li{
+    color: initial
+}
