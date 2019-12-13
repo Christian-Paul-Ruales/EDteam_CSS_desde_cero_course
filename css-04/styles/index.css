@@ -6,7 +6,7 @@ inline: elementos que no crean nuevas lineas
 bloque, ocupan todo el ancho del contenedor
 */
 /*todos los elementos de html son rectangulos*/
-h1{
+.h1{
     background: yellowgreen;
     display: inline;
 }
@@ -88,3 +88,28 @@ margin: separacion de la caja con las cajas adyacentes*/
     margin-right: auto;
 }
 /*usando margenes negativos puedes hacer que un elemento sea mas grande que su contenedor*/
+
+.article {
+    background: yellow;
+}
+/*el mayor espaciado entre los 2 gana, no se suma*/
+.article-1 {
+    margin-bottom: 100px;
+}
+.article-2 {
+    margin-top: 120px;
+}
+/*buena practica siempre es usar margin en una sola direccion
+, de preferencia margin-bottom*/
+/*padding con porcentaje es referente al ancho*/
+[class^="article-"] {
+    background: yellowgreen;
+    padding:30% 20%;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video{
+    background: black;
+    padding-bottom: 56.25%;/*usar hack*/
+}
