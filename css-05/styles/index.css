@@ -6,7 +6,7 @@
 .box {
     width: 400px;
     height: 300px;
-    background: burlywood;
+    background: transparent;
     margin: 100px auto;
     color: royalblue;
     /*border: 10px dotted black;/*ancho estilo color*/
@@ -18,7 +18,13 @@
     
   
     */
-    border-style: solid dotted;
+    border-style: solid dashed;
+   /**
+    border-color: transparent transparent tomato transparent;
+   
+    border-width: 200px 200px 200px 200px;
+    */
+    /*los bordes se unen*/
     /*border-color: rgb(111, 0, 33)*/
     /*
     por defecto con border-style
@@ -26,6 +32,7 @@
       border-width: 
     */
     /*
+    shorthands
         border-width: 100px;
         border-style: solid;
         border-color: black;
@@ -37,4 +44,33 @@
         los bordes no son una propiedad externa
         todos excepto el margin son externos
     */
+
+    /*shorthands*/
+/*
+    border-top: 200px solid transparent;
+    border-right: 200px solid teal;
+    border-bottom: 200px solid transparent;
+    border-left: 200px solid transparent;
+    */
+
+    border: 200px solid ;
+    border-color:blue transparent transparent;
+}
+.box-2 {
+    width: 400px;
+    height: 400px;
+    background: rgb(122, 143, 2);
+    margin: 100px auto;
+    /*border-radius: 200px; /*shrothand*/
+    /*
+     border-top-right-radius: 200px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 314px;
+    */
+    /*comienza por arriba a la izquierda*/
+    /*border-radius: 5px 400px 12px ;*/
+
+    border-top-right-radius: 200px 300px;
+   
 }
