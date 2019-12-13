@@ -1,0 +1,40 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background: burlywood;
+    margin: 100px auto;
+    color: royalblue;
+    /*border: 10px dotted black;/*ancho estilo color*/
+    /*
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    
+  
+    */
+    border-style: solid dotted;
+    /*border-color: rgb(111, 0, 33)*/
+    /*
+    por defecto con border-style
+      border-color: igual a la propiedad color:
+      border-width: 
+    */
+    /*
+        border-width: 100px;
+        border-style: solid;
+        border-color: black;
+
+    */
+
+    /*background-clip: padding-box;*/
+    /*
+        los bordes no son una propiedad externa
+        todos excepto el margin son externos
+    */
+}
