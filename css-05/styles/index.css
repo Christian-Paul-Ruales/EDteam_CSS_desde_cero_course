@@ -57,9 +57,10 @@
     border-color:blue transparent transparent;
 }
 .box-2 {
-    width: 400px;
-    height: 400px;
-    background: rgb(122, 143, 2);
+    --border-radius-x: 500px;
+    --border-radius-y: 125px;
+    width: 500px;
+    background: rgb(248, 61, 24);
     margin: 100px auto;
     /*border-radius: 200px; /*shrothand*/
     /*
@@ -70,7 +71,32 @@
     */
     /*comienza por arriba a la izquierda*/
     /*border-radius: 5px 400px 12px ;*/
-
+    /*
     border-top-right-radius: 200px 300px;
+    */
+    /*
+    jamaz hagas border-top-right-radius: 0px, 0 es cero no tiene unidad
+    */
+  /*  border-top-left-radius: 500px 124px;
+    border-top-right-radius: 500px 124px;
+    border-bottom-right-radius: 500px 124px;
+    border-bottom-left-radius: 500px 124px;
+    padding: 75px 80px 75px 220px;*/
+    /*border-radius: x x x x / y y y y para radius*/
+    /*
+    border-radius: var(--border-radius-x) / var(--border-radius-y);*/
+    border-radius: 100%;/*se calcula con respecto a la figura*/
+    height: 350px;
+
+}
+
+.triangle{
    
+    width: 200px;
+    border: 100px solid;
+    border-color: transparent transparent transparent white;
+    margin-left: 150px;
+    margin-top: 125px;
+    height: 200px;
+
 }
