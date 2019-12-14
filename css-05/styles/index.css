@@ -103,4 +103,37 @@
 /*
 outline: borde que no es parte de la caja
 outline: tamano contextura color
+
 */
+
+/*
+Box Shadow
+h-offset: movimiento en horizontal
+v-offset: movimiento en vertical
+blur: difuminado
+spread: se expande
+color: 
+inset: si la sombra es interior o exterior
+*/
+
+.box-3{
+    color: rgb(55, 0, 255);
+    width: 500px;
+    height: 500px;
+    background: hsl(10, 90%, 50%);
+    margin: 100px auto;
+    /*box-shadow: 0 0 0 10px teal, 
+                0 0 0 20px greenyellow,
+                0 0 0 40px indigo;*//* puedo tener multiples bordes con boxshadow*/
+ 
+    /*border-radius: 50%;*/
+    /*para inset es recomendable usar valores negativos
+    */
+    /*box-shadow: -2px -2px 12px rgba(0, 0,0, .5) inset;*/
+  /*  box-shadow: 0 25px 0 yellow inset, bandera ecuador
+                0 37.5px 0 blue inset,
+                0 50px 0 red inset;
+                */
+
+    box-shadow:  0 9px 5px -5px rgba(0, 0, 0, 0.7);/*expandimiento negativo*/
+    }
