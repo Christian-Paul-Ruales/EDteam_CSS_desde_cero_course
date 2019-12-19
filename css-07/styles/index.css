@@ -38,4 +38,8 @@ span {
     text-align: center;
     font-family: Impact;
     letter-spacing: 0.31em;
+  /*  text-decoration-line: line-through;*//*underline overline line-through*/
+  /*  text-decoration-color: rgba(130, 111, 12, 0.5);
+    text-decoration-style: double;*/
+    text-decoration: underline line-through overline;
 }
