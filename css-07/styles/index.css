@@ -28,3 +28,9 @@ span {
     line-height: 400px;
 
 }
+.Vertical-Align {
+    color: thistle;
+    font-size: .5em;
+    vertical-align: bottom;
+
+}
