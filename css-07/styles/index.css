@@ -17,4 +17,14 @@ span {
 
     text-align: justify;/*justificar texto en web es muy mala practica*/
     text-align-last:left;
+    line-height: 1.5;/*sin em es una buena practica*/
+
+}
+.line-height-center{
+    width: 400px;
+    height: 400px;
+    background: teal;
+    text-align: center;
+    line-height: 400px;
+
 }
