@@ -18,14 +18,14 @@ span {
     text-align: justify;/*justificar texto en web es muy mala practica*/
     text-align-last:left;
     line-height: 1.5;/*sin em es una buena practica*/
-
+    letter-spacing: 0.02em;
 }
 .line-height-center{
     width: 400px;
     height: 400px;
     background: teal;
     text-align: center;
-    line-height: 400px;
+   /* line-height: 400px;*/
 
 }
 .Vertical-Align {
@@ -33,4 +33,9 @@ span {
     font-size: .5em;
     vertical-align: bottom;
 
+}
+.Welcome{ 
+    text-align: center;
+    font-family: Impact;
+    letter-spacing: 0.31em;
 }
