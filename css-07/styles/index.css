@@ -1,0 +1,20 @@
+/*
+em: tamano fuente del contexto, variable
+rem: tamano fuente del root,la raiz siempre es la misma (:root)
+*/
+h1 {
+    font-size: 4rem;
+}
+span {
+    font-size: 4em;
+    color: teal;
+}
+/*Cambiar direccion de escritura*/
+.directions {
+    margin: 2em;
+  /*  direction: rtl;*/
+  /*  text-indent: 4em;*/
+
+    text-align: justify;/*justificar texto en web es muy mala practica*/
+    text-align-last:left;
+}
