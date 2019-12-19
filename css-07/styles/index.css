@@ -79,4 +79,9 @@ span {
     ;
     */
 }
+.vert {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+
+}
 /*texto color borde svg*/
