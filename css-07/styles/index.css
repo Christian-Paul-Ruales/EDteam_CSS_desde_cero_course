@@ -43,9 +43,7 @@ span {
     text-decoration-style: double;*/
     text-decoration: underline line-through overline;
 }
-body{
-    background: #333;
-}
+
 .textshadow{
     text-align: center;
    /* text-shadow: 2em 2em 0 red,/*textshadow es una copia*/
@@ -54,3 +52,31 @@ body{
 
     text-shadow: 1px 1px 1px black;
 }
+.lorem2{
+
+
+    white-space: pre; /*
+    nowrap: no salta de linea
+    pre: tal cual como es el codigo
+    
+    pre-wrap: salta de linea y conserva espacios
+    pre-line: salta de linea y no conserva espacios
+    */
+    
+    
+}
+.desbord {
+    width: 30px;
+    margin: 2em auto;
+    border: 2px solid black;
+    /*word-break: break-all;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*
+    word-breack: parte palabras
+    word-wrap: parte palabras
+    text-overflow: junto con overflow:hidden ayuda a agregar un estilo de representativo de que la linea es mas larga pero no la salta
+    ;
+    */
+}
+/*texto color borde svg*/
