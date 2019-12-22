@@ -84,4 +84,7 @@ span {
     text-orientation: upright;
 
 }
+.villancico {
+    text-transform: capitalize;
+}
 /*texto color borde svg*/
