@@ -19,5 +19,5 @@ body{
     font-family: Impact, Arial,sans-serif;/*BUena practia terminar con generica*/
     font-style: italic;
     font-weight: var(--bold);/*grosor de trazos, no todas las tipografias tienen negrita*/
-
+    font-variant: small-caps;/*crear versalitas*/
 }
