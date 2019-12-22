@@ -1,0 +1,17 @@
+/*Familias tipograficas
+serif: adornos al final (serifas)
+sans-serif: sin serif(sin serifa), fuentes sin adorno, palo seco
+monospace: fuentes en las que cada glifo(figura) mide igual ancho
+display: se utilizan en titulos, no parrafos largos, no soportadas por css
+cursive: letras con inclinacion
+
+
+*/
+body{
+    /*rem relativo a html
+    em relativo al contexto (variable)*/
+    font-size: 3em;/*small medium large (recomendado no usar)*/
+}
+.font{
+    font-family: Impact, Arial,sans-serif;/*BUena practia terminar con generica*/
+}
