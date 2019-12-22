@@ -7,6 +7,9 @@ cursive: letras con inclinacion
 
 
 */
+:root{
+    --bold: 600
+}
 body{
     /*rem relativo a html
     em relativo al contexto (variable)*/
@@ -14,4 +17,7 @@ body{
 }
 .font{
     font-family: Impact, Arial,sans-serif;/*BUena practia terminar con generica*/
+    font-style: italic;
+    font-weight: var(--bold);/*grosor de trazos, no todas las tipografias tienen negrita*/
+
 }
